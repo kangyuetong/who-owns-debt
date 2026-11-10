@@ -1,41 +1,62 @@
-# Who owns the world’s debt?
+# Who owns the world's debt?
 
-An interactive financial research dashboard exploring external debt stocks, annual debt-service flows, country comparisons, and selected reported creditor relationships. Built as a static website for GitHub Pages.
+An interactive financial research dashboard examining how external debt is distributed across economies, who holds sovereign debt claims, and how borrowing structures shape financial exposure.
 
-**[Explore the interactive Debt Atlas](https://kangyuetong.github.io/REPOSITORY-NAME/)**
+The project brings together international debt statistics, creditor-level data, and interactive visualisations to explore a broader question: **How does the composition of a country's creditors influence its financial vulnerability and economic autonomy?**
 
-> **Before publishing:** Replace `REPOSITORY-NAME` in the link above with the exact name of your GitHub repository. If you publish from a custom domain or a different Pages configuration, replace the entire URL with your actual live site link.
+### [Explore the interactive dashboard](https://kangyuetong.github.io/REPOSITORY-NAME/)
 
-## What you can explore
+---
 
-The dashboard compares Indonesia, India, Brazil, Mexico and South Africa using 2024 World Bank-attributed aggregate external debt statistics. Its interactive map and debt-profile similarity network support cross-country exploration. Separate creditor diagrams and comparisons examine Senegal and Samoa's reported 2024 public and publicly guaranteed external debt by creditor and creditor group. A refinancing sensitivity tool illustrates hypothetical changes in annual interest expense.
+## About the project
 
-**Important distinction:** The similarity network does not represent actual creditor-to-borrower loans. Named creditor data cover only Senegal and Samoa; the project does not identify the ultimate beneficial owners of all global debt.
+Countries borrow from a diverse range of creditors, including multilateral institutions, foreign governments, commercial banks, and bondholders. Yet the size of a country's debt alone tells us relatively little about the relationships and obligations underlying it.
 
-## Repository structure
+This project explores external debt through three interconnected dimensions:
 
-```text
-.
-├── index.html
-├── README.md
-└── data/
-    ├── README.md
-    ├── external_debt_2024.csv
-    ├── creditor_shares_2024.csv
-    └── creditor_group_shares_2024.csv
-```
+**01 / Debt exposure**
 
-`index.html` is self-contained for its core visuals and embedded data. The CSV files are included for transparency and future reference; **the current site does not read them**. The page loads Poppins from Google Fonts and optionally retrieves additional creditor-category observations from the World Bank API.
+How do external debt stocks and annual debt-service obligations differ across economies? What can these differences reveal about repayment pressures and financial exposure?
 
-## Sources and limitations
+**02 / Creditor relationships**
 
-The figures were carried over from the previous V24 HTML and attributed there to [World Bank International Debt Statistics](https://www.worldbank.org/en/programs/debt-statistics/ids) and the World Bank *International Debt Report 2025* country profiles. They have **not been independently revalidated during repository packaging**. See [data documentation](data/README.md) for indicators, definitions, limitations and a Senegal rounding discrepancy that should be checked before academic or professional citation. World Bank series may be revised.
+Who holds reported claims on sovereign borrowers? How does the distribution of debt across bilateral, multilateral, and private creditors differ between countries?
 
-## Publish with GitHub Pages
+**03 / Financial vulnerability**
 
-1. Upload `index.html`, `README.md`, and the complete `data` folder to the repository root.
-2. Open **Settings → Pages** in GitHub.
-3. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-4. When GitHub provides your site URL, update the **Explore the interactive Debt Atlas** link at the top of this README.
+How might creditor concentration, repayment obligations, and changes in financing conditions influence a country's exposure to financial shocks?
 
-No installation, build process, Python server, or backend is required.
+## Explore the dashboard
+
+The interactive dashboard allows users to:
+
+- **Explore global debt patterns** through an interactive world map and cross-country comparisons.
+- **Compare debt profiles** across Indonesia, India, Brazil, Mexico, and South Africa.
+- **Examine creditor relationships** using reported creditor-level data for Senegal and Samoa.
+- **Investigate creditor concentration** and the relative importance of multilateral, bilateral, and private lending.
+- **Model refinancing scenarios** to explore how changes in borrowing costs could affect annual interest expenses.
+- **Discover country-specific insights** that connect financial indicators to broader questions of debt governance.
+
+## Data and methodology
+
+The project draws primarily on the World Bank's *International Debt Statistics* and associated creditor reporting.
+
+Key indicators include external debt stocks, annual debt-service payments, creditor composition, and debt-service-to-stock ratios.
+
+The analysis distinguishes aggregate external debt from public and publicly guaranteed external debt. Creditor-level coverage is limited to selected economies, and some reported categories represent groups of creditors rather than individually identified lenders.
+
+The interactive network compares similarities in debt profiles; its connections do not represent actual lending relationships. Refinancing scenarios are illustrative rather than forecasts.
+
+**Primary source:** [World Bank International Debt Statistics](https://www.worldbank.org/en/programs/debt-statistics/ids)
+
+Supporting datasets and documentation are available in the [`data/`](data/) directory.
+
+---
+
+## Research perspective
+
+Debt is more than a financial liability. It also creates relationships between borrowers and creditors, potentially influencing refinancing options, negotiating positions, and the distribution of financial risk.
+
+Understanding these relationships requires looking beyond how much countries owe to examine **who holds the claims, under what arrangements, and with what implications for economic decision-making.**
+
+This dashboard is an exploratory contribution to that broader inquiry.
