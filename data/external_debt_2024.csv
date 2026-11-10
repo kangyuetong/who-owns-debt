@@ -1,0 +1,6 @@
+country,iso3,year,external_debt_stock_usd_billions,external_debt_service_usd_billions,service_to_stock_pct_derived,stock_indicator,service_indicator,data_status
+Indonesia,IDN,2024,421.05921,76.75812,18.2298,DT.DOD.DECT.CD,DT.TDS.DECT.CD,embedded_in_v24_not_independently_revalidated
+India,IND,2024,716.45602,91.61746,12.7876,DT.DOD.DECT.CD,DT.TDS.DECT.CD,embedded_in_v24_not_independently_revalidated
+Brazil,BRA,2024,605.46378,114.11271,18.8472,DT.DOD.DECT.CD,DT.TDS.DECT.CD,embedded_in_v24_not_independently_revalidated
+Mexico,MEX,2024,591.25503,67.01117,11.3337,DT.DOD.DECT.CD,DT.TDS.DECT.CD,embedded_in_v24_not_independently_revalidated
+South Africa,ZAF,2024,175.89555,22.55714,12.8242,DT.DOD.DECT.CD,DT.TDS.DECT.CD,embedded_in_v24_not_independently_revalidated
