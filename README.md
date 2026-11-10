@@ -4,7 +4,7 @@ An interactive financial research dashboard examining how external debt is distr
 
 The project brings together international debt statistics, creditor-level data, and interactive visualisations to explore a broader question: **How does the composition of a country's creditors influence its financial vulnerability and economic autonomy?**
 
-### [Explore the interactive dashboard](https://kangyuetong.github.io/REPOSITORY-NAME/)
+### [Explore the interactive dashboard](https://kangyuetong.github.io/who-owns-debt/)
 
 ---
 
@@ -33,7 +33,7 @@ The interactive dashboard allows users to:
 - **Explore global debt patterns** through an interactive world map and cross-country comparisons.
 - **Compare debt profiles** across Indonesia, India, Brazil, Mexico, and South Africa.
 - **Examine creditor relationships** using reported creditor-level data for Senegal and Samoa.
-- **Investigate creditor concentration** and the relative importance of multilateral, bilateral, and private lending.
+- **Investigate creditor composition** and the relative importance of multilateral, bilateral, and private lending.
 - **Model refinancing scenarios** to explore how changes in borrowing costs could affect annual interest expenses.
 - **Discover country-specific insights** that connect financial indicators to broader questions of debt governance.
 
